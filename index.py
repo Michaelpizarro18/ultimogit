@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask_frozen import Freezer
 
 # Crea la aplicación Flask
-app = Flask(__name__, template_folder='App')  # Asegúrate de que 'App' sea el nombre correcto del directorio de templates
+app = Flask(__name__, template_folder='App')
 
 # Crea un objeto Freezer
 freezer = Freezer(app)
